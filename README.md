@@ -22,28 +22,32 @@ class About extends Me
                 'Symfony (PHP Framework)',
             ],
             'workplace' => [
-                            'company' => 'TechMyTeam',
-                            'position' => 'Web Developer'         
-                        ],
-            'currentLearning' => 'AWS (Amazon Web Services)', 'Quality Assurance (QA)'
+                'company' => 'TechMyTeam',
+                'position' => 'Web Developer',
+            ],
+            'currentLearning' => 'AWS (Amazon Web Services)', 'Quality Assurance (QA)',
+            'certifications' => [
+                'AWS Certified Cloud Practitioner',
+                'AWS Cloud Architect Associate (preparing)',
+            ],
         ];
     }
 
     public function getSkills(): array
     {
         return [
-          'Front-end' => [
-              'JavaScript' => ['React', 'Redux', 'Stimulus', 'Jest', 'Cypress'],
-          ],
-          'Back-end' => [
-              'PHP' => ['Symfony', 'ApiPlatform', 'Turbo', 'PHPUnit'],
-          ],
-          'Development Tools' => ['npm', 'Yarn', 'Webpack', 'Docker'],
-          'Databases' => ['MongoDB', 'MySQL', 'SQLite', 'Oracle'],
-      ];
+            'Front-end' => [
+                'JavaScript' => ['React', 'Redux', 'Stimulus', 'Jest', 'Cypress'],
+            ],
+            'Back-end' => [
+                'PHP' => ['Symfony', 'ApiPlatform', 'Turbo', 'PHPUnit'],
+            ],
+            'Development Tools' => ['npm', 'Yarn', 'Webpack', 'Docker'],
+            'Databases' => ['MongoDB', 'MySQL', 'SQLite', 'Oracle'],
+        ];
     }
-
 }
 
 $soufiyane = new About();
+
 ```
