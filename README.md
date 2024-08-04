@@ -9,7 +9,7 @@ class About extends Me
 {
     public function __construct()
     {
-        echo "PHP/Symfony Engineer";
+        echo "Certified Cloud Engineer";
     }
 
     public function getPersonalInfo(): array
@@ -18,8 +18,9 @@ class About extends Me
             'name' => 'soufiyane',
             'location' => 'Marrakech, Morocco',
             'interests' => [
-                'Symfony (PHP Framework)',
-                'Cloud Computing'
+                'AWS Cloud Computing',
+                'PHP/Symfony',
+                'JavaScript/React.JS'
             ],
         ];
     }
