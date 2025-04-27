@@ -14,7 +14,8 @@ resource "info" "soufiyane" {
     "AWS Certified Cloud Practitioner",
     "AWS Certified Solutions Architect",
     "AWS Certified Developer",
-    "HashiCorp Certified: Terraform"
+    "HashiCorp Certified: Terraform",
+    "Microsoft Azure Fundamentals"
   ]
 
   skills = [
@@ -26,9 +27,8 @@ resource "info" "soufiyane" {
 
   current_role = "System and Cloud Engineer"
   education = [
-    "Double Master's in Artificial Intelligence - Université Côte d’Azur, Nice",
     "Engineer’s Degree in Computer Science - EMSI, Marrakech",
   ]
 
-  currently_learning = "Oracle Cloud Infrastructure (OCI)"
+  currently_learning = "Microsoft Azure"
 }
